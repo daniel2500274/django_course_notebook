@@ -13,7 +13,7 @@ class BankAccount:
     def check_balance(self):
         return f"Actual balance: {self.__balance}"
 
-account = BankAccount("Daniel", 100)
+account = BankAccount("Daniel", 100) #abstraction
 print(account.check_balance())
 account.deposit(100)
 print(account.check_balance())
